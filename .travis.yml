@@ -12,6 +12,9 @@ node_js:
   - '5'
 before_install:
   - npm i -g npm@^2.0.0
+install:
+  - npm install -g babel-cli
+  - npm install
 before_script:
   - npm prune
 script:
