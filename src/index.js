@@ -1,9 +1,9 @@
-module.exports = function (streakInt) {
-	if (streakInt < 0) {
-		return -1 * streakInt + 'L'
-	}
+module.exports = function intToStreak (streakInt) {
 	if (streakInt === 0) {
-		return;
+		return undefined;
 	}
-	return streakInt + 'W';
+	if (streakInt < 0) {
+		return `${-1 * streakInt}L`;
+	}
+	return `${streakInt}W`;
 };
