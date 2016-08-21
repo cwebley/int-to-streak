@@ -7,7 +7,7 @@
     "commit": "git-cz",
     "test": "mocha src/index.test.js --compilers js:babel-register",
     "prebuild": "rm -rf lib",
-    "build": "babel --out-dir lib --ignore *.test.js src",
+    "build": "./node_modules/.bin/babel --out-dir lib --ignore *.test.js src",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
