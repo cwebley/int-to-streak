@@ -1,6 +1,6 @@
 {
   "name": "int-to-streak",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Convert integer to streak text string",
   "main": "src/index.js",
   "scripts": {
