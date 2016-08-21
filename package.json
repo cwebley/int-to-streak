@@ -4,7 +4,7 @@
   "description": "Convert integer to streak text string",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha src/index.test.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/cwebley/int-to-streak/issues"
   },
-  "homepage": "https://github.com/cwebley/int-to-streak#readme"
+  "homepage": "https://github.com/cwebley/int-to-streak#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  }
 }
