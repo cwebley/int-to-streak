@@ -39,7 +39,7 @@
     "semantic-release": "^4.3.5"
   },
   "config": {
-    "czConfig": {
+    "commitizen": {
       "path": "node_modules/cz-conventional-changelog"
     }
   }
