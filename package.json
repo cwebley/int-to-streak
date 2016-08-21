@@ -1,0 +1,23 @@
+{
+  "name": "int-to-streak",
+  "version": "1.0.0",
+  "description": "Convert integer to streak text string",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cwebley/int-to-streak.git"
+  },
+  "keywords": [
+    "streak",
+    "streakText"
+  ],
+  "author": "cwebley <cameron.webley@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cwebley/int-to-streak/issues"
+  },
+  "homepage": "https://github.com/cwebley/int-to-streak#readme"
+}
